@@ -1,0 +1,558 @@
+
+
+/* Start:/local/templates/dresscodeV2/components/dresscode/slider/promoSlider/style.css?17448407994943*/
+#slider{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+#slider .wrap{
+	position: relative;
+	overflow: hidden;
+}
+
+#slider ul{
+	position:relative;
+}
+
+#slider ul li{
+	position: relative;
+	display: block;
+	float:left;
+}
+
+#slider ul li .slideLink{
+	text-decoration: none;
+	color: #000000;
+}
+
+/*#slider ul li span:hover{
+	transform: scale(1.03);
+}*/
+
+#slider .sliderVideoOverBg{
+	pointer-events: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+}
+
+#slider .slideVideoContainer{
+	position: relative;
+	overflow: hidden;
+	height: 900px;
+}
+
+#slider .videoPoster{
+    background-position: center center;
+    -moz-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 555px;
+	display: none;
+}
+
+#slider .slideVideoContainer iframe,
+#slider .slideVideoContainer object,
+#slider .slideVideoContainer embed {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+#slider .slideVideo{
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+	background-color: #000000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transform: translateY(-50%);
+	pointer-events: none;
+	position: absolute;
+	object-fit: cover;
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+	left: 0px;
+	top: 50%;
+}
+
+#slider .limiterContainer{
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+
+#slider .limiter{
+	position: relative;
+	height: 900px;
+}
+
+#slider .sliderContent{
+	transform: translateY(-50%);
+	position: absolute;
+	color: #000000;
+	z-index: 3;
+	left: 0px;
+	top: 50%;
+}
+
+#slider .sliderContent.loading{
+	display: none;
+}
+
+#slider .leftContainer{
+	left: 0px;
+}
+
+#slider .centerContainer{
+	transform: translateX(-50%) translateY(-50%);
+	left: 50% !important;
+}
+
+#slider .rightContainer{
+	left: unset;
+	right: 0px;
+}
+
+#slider .sliderContent .bigText,
+#slider .sliderContent .bigTextColor,
+#slider .sliderContent .bigTextLight,
+#slider .sliderContent .bigTextLightColor{
+	font-family: "robotoMedium";
+	line-height: 56px;
+	margin-top: 24px;
+	font-size: 48px;
+	display: block;
+}
+
+#slider .sliderContent .mediumText,
+#slider .sliderContent .mediumTextColor,
+#slider .sliderContent .mediumTextLight{
+	line-height: 36px;
+	margin-top: 24px;
+	font-size: 30px;
+	display: block;
+}
+
+#slider .sliderContent .smallText,
+#slider .sliderContent .smallTextColor,
+#slider .sliderContent .smallTextLight{
+	line-height: 24px;
+	margin-top: 24px;
+	font-size: 16px;
+	display: block;
+}
+
+#slider .sliderContent .bigTextLightColor,
+#slider .sliderContent .bigTextLight,
+#slider .sliderContent .mediumTextLight,
+#slider .sliderContent .smallTextLight{
+	font-family: "roboto_thregular";
+}
+
+#slider .sliderContent .whiteColor{
+	color: #ffffff;
+}
+
+#slider .sliderContent .noMargin{
+	margin: 0;
+}
+
+#slider .sliderContent .center{
+	text-align: center;
+}
+
+#slider .sliderContent .cButton{
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 2px;
+	line-height: 50px;
+	margin-top: 24px;
+	padding: 0 24px;
+	color: #ffffff;
+	height: 50px;
+}
+
+#slider .sliderContent .cButtonLight{
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	border: 1px solid rgba(0, 0, 0, .4);
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 2px;
+	line-height: 50px;
+	margin-top: 24px;
+	padding: 0 24px;
+	color: #000000;
+	height: 50px;
+}
+
+#slider .sliderContent .cButtonLight:hover{
+	border: 1px solid rgba(0, 0, 0, .7);
+}
+
+#slider .sliderContent .cButton:active,
+#slider .sliderContent .cButtonLight:active{
+	position: relative;
+	top: 1px;
+}
+
+#slider .sliderContent div:first-child{
+	margin-top: 0px;
+}
+
+#slider ol{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	position: absolute;
+	left:50%;
+	bottom:12px;
+}
+
+#slider ol li{
+	background: url(/local/templates/dresscodeV2/components/dresscode/slider/promoSlider/images/slideButton.png) 0 0 no-repeat transparent;
+	margin-right: 4px;
+	width: 14px;
+	height: 14px;
+	float: left;
+	cursor: pointer;
+}
+
+#slider ol li:hover{
+	background-position: -14px 0;
+}
+
+#slider ol li:active{
+	background-position: -28px 0;
+}
+
+#slider ol li.selected{
+	background-position: -42px 0;	
+}
+
+#slider ol li.selected:hover{
+	background-position: -56px 0;	
+}
+
+#slider ol li.selected:active{
+	background-position: -70px 0;	
+}
+
+#slider .sliderBtnLeft, 
+#slider .sliderBtnRight{
+	display: block;
+	height: 118px;
+	width: 59px;
+	position: absolute;
+	top: 50%;
+	margin-top: -59px;
+	background: url(/local/templates/dresscodeV2/components/dresscode/slider/promoSlider/images/slideArrow.png) no-repeat transparent;
+
+}
+
+#slider .sliderBtnLeft:hover{
+	background-position: -59px 0;	
+}
+
+#slider .sliderBtnLeft:active{
+	background-position: -118px 0;		
+}
+
+#slider .sliderBtnRight{
+	background-position: 0 -118px;
+	right: -0px;
+}
+
+#slider .sliderBtnRight:hover{
+	background-position: -59px -118px;
+}
+
+#slider .sliderBtnRight:active{
+	background-position: -118px -118px;
+}
+/* End */
+
+
+/* Start:/local/templates/dresscodeV2/components/dresscode/offers.product/.default/style.css?17448407991737*/
+#homeCatalog{
+	background-color: #f3f3f3;
+	padding-bottom: 36px;
+	margin-top: 0px;
+}
+
+#homeCatalog .captionList{
+	position: relative;
+	z-index: 1;
+	height: 60px;
+	line-height: 60px;
+	background-color: #2b2b2b;
+}
+
+#homeCatalog .captionList .slideBox{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	left: 0px;
+}
+
+#homeCatalog .captionList .cItem{
+	list-style: none;
+	float: left;
+}
+
+#homeCatalog .caption{
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	border-left: 1px solid #222222;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 12px;
+}
+
+#homeCatalog .caption:hover{
+	background-color: #202020;
+}
+
+#homeCatalog .caption.loading{
+	opacity: 0.6;
+}
+
+#homeCatalog .caption a{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#homeCatalog .cItem{
+	float: left;
+	width: 20%;
+}
+
+#homeCatalog .captionBtnRight,
+#homeCatalog .captionBtnLeft{
+	background: url(/local/templates/dresscodeV2/components/dresscode/offers.product/.default/images/offerArrowSmall.png) 0 0 no-repeat transparent;
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	top: 0;
+}
+
+#homeCatalog .captionBtnLeft{
+	left: 0px;
+}
+
+#homeCatalog .captionBtnRight{
+	right: 0px;
+}
+
+#homeCatalog .captionBtnLeft:hover{
+	background-position: -0px -60px;
+}
+
+#homeCatalog .captionBtnLeft:active{
+	background-position: -0px -120px;
+}
+
+#homeCatalog .captionBtnRight{
+	background-position: -60px 0px;
+}
+
+#homeCatalog .captionBtnRight:hover{
+	background-position: -60px -60px;
+}
+
+#homeCatalog .captionBtnRight:active{
+	background-position: -60px -120px;
+}
+/* End */
+
+
+/* Start:/local/templates/dresscodeV2/components/dresscode/pop.section/.default/style.css?17448407992770*/
+#popSection{
+	padding-bottom: 36px;
+	overflow: hidden;
+}
+
+#popSection a{
+	text-decoration: none;
+}
+
+#popSection .heading{
+	margin-bottom: 0px !important;
+	text-transform: uppercase;
+	font-family: 'robotobold';
+	text-align: center;
+    padding-left: 18px;
+	line-height: 30px;
+    font-size: 18px;
+    display: block;
+    color: #000000;
+    height: 60px;
+}
+
+#popSection .items{
+	list-style: none;
+	overflow: hidden;
+	border-left: 1px solid #e7e8ea;
+	border-top: 1px solid #e7e8ea;
+}
+
+#popSection .item{
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-right: 1px solid #e7e8ea;
+	border-bottom: 1px solid #e7e8ea;
+	background-color: #ffffff;
+	overflow: hidden;
+	height: 170px;
+	float: left;
+	width: 20%;
+
+}
+
+#popSection .tabloid{
+	position: relative;
+	padding: 12px;
+}
+
+#popSection .markerContainer{
+	position: absolute;
+	z-index: 2;
+	top: 8px;
+	left: 8px;
+}
+
+#popSection .marker {
+	font: normal normal 12px "roboto_ltregular" , arial , sans-serif;
+	background-color: #424242;
+	margin-bottom: 8px;
+	color: #fff;
+	padding: 3px 4px;
+	line-height: 16px;
+	z-index: 2;
+}
+
+#popSection .picture{
+
+	-webkit-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+	transform: translate3d(0,0,0);
+
+	text-align: center;
+	line-height: 100px;
+	display: block;
+	height: 100px;
+	opacity: 1;
+}
+
+#popSection .picture:hover{
+	opacity: 0.8;
+}
+
+#popSection .picture img{
+	vertical-align: middle;
+	max-height: 90%;
+	max-width: 90%;
+}
+
+#popSection .nameWrap{
+	height: 42px;
+	margin-top: 12px;
+	line-height: 42px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#popSection .name{
+
+	-webkit-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 21px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #000000;
+}
+
+#popSection .last{
+	background-color: #f9f9f9;
+	line-height: 170px;
+	height: 170px;
+}
+
+#popSection .last .wp{
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	line-height: 21px;
+	width: 100%;
+}
+
+#popSection .last .showMore{
+	-webkit-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	color: #000000;
+	width: 100%;
+}
+
+#popSection .last .showMore:hover{
+	opacity: 0.7;
+}
+
+#popSection .last .icon{
+	display: inline-block;
+	margin-bottom: 6px;
+    text-align: center;
+    line-height: 21px;
+    height: 33px;
+    width: 100%;
+}
+
+#popSection .last .ps{
+	font-size: 18px;
+}
+
+#popSection .last .value{
+	padding-left: 6px;
+	font-size: 18px;
+}
+
+#popSection .last .small{
+	display: inline-block;
+	width: 100%;
+}
+/* End */
+/* /local/templates/dresscodeV2/components/dresscode/slider/promoSlider/style.css?17448407994943 */
+/* /local/templates/dresscodeV2/components/dresscode/offers.product/.default/style.css?17448407991737 */
+/* /local/templates/dresscodeV2/components/dresscode/pop.section/.default/style.css?17448407992770 */

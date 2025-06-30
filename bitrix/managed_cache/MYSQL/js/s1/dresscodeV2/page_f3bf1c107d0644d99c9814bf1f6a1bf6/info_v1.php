@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/bitrix/catalog/.default/script.js" => "17448407991080","/local/templates/dresscodeV2/components/bitrix/catalog.smart.filter/.default/script.js" => "174484079925196","/local/templates/dresscodeV2/components/dresscode/slider/middle/js/init.js" => "1744840799183",]; ?>

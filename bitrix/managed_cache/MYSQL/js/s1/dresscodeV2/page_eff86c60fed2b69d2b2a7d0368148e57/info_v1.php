@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/bitrix/news/brands/script.js" => "16515288491173",]; ?>

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001751294724';
+$dateexpire = '001787294724';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:5:{s:7:"SECTION";a:4:{s:2:"ID";s:3:"129";s:3:"~ID";s:3:"129";s:9:"IBLOCK_ID";s:2:"15";s:10:"~IBLOCK_ID";s:2:"15";}s:10:"BASE_PRICE";a:6:{s:2:"ID";i:1;s:4:"NAME";s:4:"BASE";s:4:"BASE";s:1:"Y";s:4:"SORT";i:100;s:6:"XML_ID";s:4:"BASE";s:9:"NAME_LANG";s:27:"Розничная цена";}s:15:"SECTION_BANNERS";a:0:{}s:16:"IPROPERTY_VALUES";a:6:{s:18:"SECTION_META_TITLE";s:92:"Купить сигареты RB Perliamutr |  RB Perliamutr оптом и в розницу";s:21:"SECTION_META_KEYWORDS";s:172:"сигареты RB Perliamutr, сигареты RB Perliamutr оптом и в розницу, купить сигареты RB Perliamutr по выгодным ценам";s:24:"SECTION_META_DESCRIPTION";s:341:"RB Perliamutr в наличии в интернет-магазине по выгодным ценам оптом и в розницу. ✓ Оригинал ✓ Скидки за объём ✓ Поставки от производителя ✓ Проверенный продавец ✓ Отправка через ТК по всей РФ";s:18:"ELEMENT_META_TITLE";s:82:"Сигареты RB Perliamutr - купить оптом и в розницу |   ";s:21:"ELEMENT_META_KEYWORDS";s:188:" RB Perliamutr, купить сигареты RB Perliamutr оптом и в розницу, сигареты RB Perliamutr по выгодным ценам, , цены на  RB Perliamutr";s:24:"ELEMENT_META_DESCRIPTION";s:259:"Интернет-магазин Optogram предлагает сигареты по выгодным ценам. Сигареты RB Perliamutr ()  от . ✓ Оригинал .  - характеристики, фото и отзывы покупателей.";}s:24:"PRICE_SORT_FROM_PROPERTY";s:1:"N";}}';
+return true;
+?>

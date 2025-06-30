@@ -1,0 +1,13 @@
+.bx-authform-input-container input[type="text"],
+.bx-authform-input-container input[type="password"]{
+	background-color: #ffffff;
+	border: 1px solid #e7e8ea;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 0 6px;
+}
+
+.bx-authform-input-container input[name="USER_CHECKWORD"]{
+	background-color: #f3f3f3;
+	cursor: crosshair;
+}

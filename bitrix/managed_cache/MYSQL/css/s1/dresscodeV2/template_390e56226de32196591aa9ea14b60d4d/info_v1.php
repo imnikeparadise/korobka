@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/components/bitrix/main.coupon.activation/templates/.default/style.css" => "168798666836729",]; ?>

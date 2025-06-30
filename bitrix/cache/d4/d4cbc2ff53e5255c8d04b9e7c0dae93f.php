@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001751267759';
+$dateexpire = '001787267759';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:5:{s:7:"SECTION";a:4:{s:2:"ID";s:2:"82";s:3:"~ID";s:2:"82";s:9:"IBLOCK_ID";s:2:"15";s:10:"~IBLOCK_ID";s:2:"15";}s:10:"BASE_PRICE";a:6:{s:2:"ID";i:1;s:4:"NAME";s:4:"BASE";s:4:"BASE";s:1:"Y";s:4:"SORT";i:100;s:6:"XML_ID";s:4:"BASE";s:9:"NAME_LANG";s:27:"Розничная цена";}s:15:"SECTION_BANNERS";a:0:{}s:16:"IPROPERTY_VALUES";a:6:{s:18:"SECTION_META_TITLE";s:76:"Купить сигареты Queen |  Queen оптом и в розницу";s:21:"SECTION_META_KEYWORDS";s:148:"сигареты Queen, сигареты Queen оптом и в розницу, купить сигареты Queen по выгодным ценам";s:24:"SECTION_META_DESCRIPTION";s:333:"Queen в наличии в интернет-магазине по выгодным ценам оптом и в розницу. ✓ Оригинал ✓ Скидки за объём ✓ Поставки от производителя ✓ Проверенный продавец ✓ Отправка через ТК по всей РФ";s:18:"ELEMENT_META_TITLE";s:74:"Сигареты Queen - купить оптом и в розницу |   ";s:21:"ELEMENT_META_KEYWORDS";s:156:" Queen, купить сигареты Queen оптом и в розницу, сигареты Queen по выгодным ценам, , цены на  Queen";s:24:"ELEMENT_META_DESCRIPTION";s:251:"Интернет-магазин Optogram предлагает сигареты по выгодным ценам. Сигареты Queen ()  от . ✓ Оригинал .  - характеристики, фото и отзывы покупателей.";}s:24:"PRICE_SORT_FROM_PROPERTY";s:1:"N";}}';
+return true;
+?>

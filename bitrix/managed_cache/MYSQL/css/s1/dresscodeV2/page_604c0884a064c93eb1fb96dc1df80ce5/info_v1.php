@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/dresscode/slider/promoSlider/style.css" => "16515288454943","/local/templates/dresscodeV2/components/dresscode/offers.product/.default/style.css" => "16515288451737","/local/templates/dresscodeV2/components/dresscode/pop.section/.default/style.css" => "16515288442770",]; ?>

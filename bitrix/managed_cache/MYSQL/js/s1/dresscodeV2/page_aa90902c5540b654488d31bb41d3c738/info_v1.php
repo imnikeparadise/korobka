@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/dresscode/slider/promoSlider/js/init.js" => "1744840799418","/local/templates/dresscodeV2/components/dresscode/offers.product/.default/script.js" => "17448407992271","/local/templates/dresscodeV2/components/dresscode/pop.section/.default/script.js" => "1744840799587",]; ?>

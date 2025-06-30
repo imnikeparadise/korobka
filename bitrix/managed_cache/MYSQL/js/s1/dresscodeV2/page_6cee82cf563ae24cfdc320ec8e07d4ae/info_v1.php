@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/script.js" => "168863391858295","/local/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/js/fast-order.js" => "1688633918981",]; ?>

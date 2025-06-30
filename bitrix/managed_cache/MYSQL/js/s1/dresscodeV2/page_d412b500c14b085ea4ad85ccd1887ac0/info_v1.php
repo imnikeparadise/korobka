@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/components/dresscode/catalog.compare/templates/.default/script.js" => "16886339193316",]; ?>

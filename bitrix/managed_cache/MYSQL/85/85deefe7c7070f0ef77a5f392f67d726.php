@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001747831396';
+$dateexpire = '001747917796';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:6:{s:9:"client_id";s:26:"bx.6824a930368c17.43463481";s:4:"type";s:1:"B";s:6:"domain";s:17:"korobkasigaret.ru";s:12:"redirect_uri";s:53:"https://korobkasigaret.ru/bitrix/tools/seo_client.php";s:5:"scope";a:1:{i:0;s:3:"seo";}s:6:"engine";a:1:{s:16:"webmaster.google";a:5:{s:4:"user";a:1:{s:5:"error";a:3:{s:4:"code";i:401;s:7:"message";s:215:"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.";s:6:"status";s:15:"UNAUTHENTICATED";}}s:10:"expires_in";i:1747834995;s:7:"expired";i:0;s:12:"access_token";s:254:"ya29.A0AW4XtxhO-b6UBhiufgxZL3FanuMPC_jeo-g6SSjM1RjWSMfm2MhsQZPAuDl68lpvmIrcMIRKLAKvYYrw790JroblZsKn8nwHvuI6VyJlb6UvDqdcILxCnW-PkLl3iPWBVgtW6Le0d7u-QXGEI0VwxXNzwSL1lGo--4_cOWGr_bEtUlXrWEnBi9hPDnt9vARwwPWId-esaCgYKAZgSARQSFQHGX2MiqvhO6bm8vNl2ikgNDpxikw0207";s:13:"refresh_token";s:103:"1//03qf3wpHTE_kzCgYIARAAGAMSNwF-L9IrgFbNaRmz4On0mYaskVx8yNgHRXS5zcP5q_uPkkoT_eHLrQUS8uExjmZOLFZoCWYwy5k";}}}}';
+return true;
+?>

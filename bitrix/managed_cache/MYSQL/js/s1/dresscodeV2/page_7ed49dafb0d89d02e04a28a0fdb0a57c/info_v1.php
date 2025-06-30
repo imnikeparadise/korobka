@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/bitrix/system.auth.registration/.default/script.js" => "1688633918776",]; ?>

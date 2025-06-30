@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/dresscode/simple.offers/.default/script.js" => "16515288451120",]; ?>

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001751263850';
+$dateexpire = '001751267450';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{i:920;a:16:{s:2:"ID";s:3:"920";s:11:"TIMESTAMP_X";s:19:"04.07.2023 20:31:16";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:4:"1280";s:5:"WIDTH";s:3:"720";s:9:"FILE_SIZE";s:5:"31896";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/600";s:9:"FILE_NAME";s:36:"201hrn35b5hxz4ikcqgjo4exbyl63acp.jpg";s:13:"ORIGINAL_NAME";s:43:"g-armani-compact-124-sigarety-optom-002.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"6a2125a8d808d6673229758b7f844671";s:19:"VERSION_ORIGINAL_ID";s:0:"";s:4:"META";s:0:"";s:3:"SRC";s:55:"/upload/iblock/600/201hrn35b5hxz4ikcqgjo4exbyl63acp.jpg";}i:924;a:16:{s:2:"ID";s:3:"924";s:11:"TIMESTAMP_X";s:19:"22.04.2025 18:19:21";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"720";s:5:"WIDTH";s:4:"1200";s:9:"FILE_SIZE";s:5:"81244";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/bf9";s:9:"FILE_NAME";s:36:"on5jtxkzjkth6ajqt85uu130746wavil.jpg";s:13:"ORIGINAL_NAME";s:10:"sklad3.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"de2217b46bb1cb6c6a73cb208aae086d";s:19:"VERSION_ORIGINAL_ID";s:0:"";s:4:"META";s:0:"";s:3:"SRC";s:55:"/upload/iblock/bf9/on5jtxkzjkth6ajqt85uu130746wavil.jpg";}}}';
+return true;
+?>

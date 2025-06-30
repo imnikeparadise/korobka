@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/bitrix/catalog.store/.default/style.css" => "1651528848897","/local/templates/dresscodeV2/components/dresscode/catalog.store.list/.default/style.css" => "16515288454268",]; ?>

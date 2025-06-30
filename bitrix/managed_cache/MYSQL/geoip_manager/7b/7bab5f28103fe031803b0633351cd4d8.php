@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001750657043';
+$dateexpire = '001751261843';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:16:"193.19.204.89/32";a:1:{s:2:"ru";a:14:{s:2:"ip";s:13:"193.19.204.89";s:4:"lang";s:2:"ru";s:11:"countryName";s:14:"Испания";s:10:"regionName";s:31:"Область Валенсия";s:8:"cityName";s:16:"Валенсия";s:11:"countryCode";s:2:"ES";s:10:"regionCode";s:5:"ES-VC";s:13:"cityGeonameId";i:2509954;s:15:"regionGeonameId";i:2593113;s:8:"geonames";a:2:{i:2593113;a:1:{s:2:"ru";s:31:"Область Валенсия";}i:2509954;a:1:{s:2:"ru";s:16:"Валенсия";}}s:8:"latitude";d:39.46975;s:9:"longitude";d:-0.37739;s:8:"timezone";s:13:"Europe/Madrid";s:12:"handlerClass";s:35:"\\Bitrix\\Main\\Service\\GeoIp\\SypexGeo";}}s:16:"193.19.204.79/32";a:1:{s:2:"ru";a:14:{s:2:"ip";s:13:"193.19.204.79";s:4:"lang";s:2:"ru";s:11:"countryName";s:14:"Испания";s:10:"regionName";s:31:"Область Валенсия";s:8:"cityName";s:16:"Валенсия";s:11:"countryCode";s:2:"ES";s:10:"regionCode";s:5:"ES-VC";s:13:"cityGeonameId";i:2509954;s:15:"regionGeonameId";i:2593113;s:8:"geonames";a:2:{i:2593113;a:1:{s:2:"ru";s:31:"Область Валенсия";}i:2509954;a:1:{s:2:"ru";s:16:"Валенсия";}}s:8:"latitude";d:39.46975;s:9:"longitude";d:-0.37739;s:8:"timezone";s:13:"Europe/Madrid";s:12:"handlerClass";s:35:"\\Bitrix\\Main\\Service\\GeoIp\\SypexGeo";}}}}';
+return true;
+?>

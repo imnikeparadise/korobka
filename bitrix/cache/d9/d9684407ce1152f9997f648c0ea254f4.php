@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001751273507';
+$dateexpire = '001787273507';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:5:{s:7:"SECTION";a:4:{s:2:"ID";s:2:"81";s:3:"~ID";s:2:"81";s:9:"IBLOCK_ID";s:2:"15";s:10:"~IBLOCK_ID";s:2:"15";}s:10:"BASE_PRICE";a:6:{s:2:"ID";i:1;s:4:"NAME";s:4:"BASE";s:4:"BASE";s:1:"Y";s:4:"SORT";i:100;s:6:"XML_ID";s:4:"BASE";s:9:"NAME_LANG";s:27:"Розничная цена";}s:15:"SECTION_BANNERS";a:0:{}s:16:"IPROPERTY_VALUES";a:6:{s:18:"SECTION_META_TITLE";s:70:"Купить сигареты NZ |  NZ оптом и в розницу";s:21:"SECTION_META_KEYWORDS";s:139:"сигареты NZ, сигареты NZ оптом и в розницу, купить сигареты NZ по выгодным ценам";s:24:"SECTION_META_DESCRIPTION";s:330:"NZ в наличии в интернет-магазине по выгодным ценам оптом и в розницу. ✓ Оригинал ✓ Скидки за объём ✓ Поставки от производителя ✓ Проверенный продавец ✓ Отправка через ТК по всей РФ";s:18:"ELEMENT_META_TITLE";s:71:"Сигареты NZ - купить оптом и в розницу |   ";s:21:"ELEMENT_META_KEYWORDS";s:144:" NZ, купить сигареты NZ оптом и в розницу, сигареты NZ по выгодным ценам, , цены на  NZ";s:24:"ELEMENT_META_DESCRIPTION";s:248:"Интернет-магазин Optogram предлагает сигареты по выгодным ценам. Сигареты NZ ()  от . ✓ Оригинал .  - характеристики, фото и отзывы покупателей.";}s:24:"PRICE_SORT_FROM_PROPERTY";s:1:"N";}}';
+return true;
+?>

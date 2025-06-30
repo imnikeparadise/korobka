@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/dresscode/slider/promoSlider/style.css" => "16886339184943",]; ?>

@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/dresscodeV2/components/bitrix/system.auth.changepasswd/.default/style.css" => "1688633918341",]; ?>
